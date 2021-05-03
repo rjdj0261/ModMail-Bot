@@ -77,4 +77,4 @@ under [GNU Affero General Public License v3.0](https://github.com/flyingpythonst
 
 ## Thanks
 
-Thanks to [Chamburr](https://github.com/chamburr) for providing the base.
+[Chamburr](https://github.com/chamburr) for providing the base.
