@@ -10,6 +10,10 @@ inbox for seamless communication between staff and the user.
 
 To learn more, check out our [Discord server](dsc.gg/modmail-support).
 
+## Progress
+
+To know the progress of our project check our [Progress Board](https://github.com/ReyBotDev/ModMail-Bot/projects/1).
+
 ## Contributing
 
 There are many ways you can contribute to this project:
@@ -78,10 +82,6 @@ under [GNU Affero General Public License v3.0](https://github.com/flyingpythonst
 ## Code Of Conduct
 
 Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob/main/CODE_OF_CONDUCT.md) here for knowing more.
-
-## Contributing
-
-Please check our [Contributing Rules](https://github.com/ReyBotDev/ModMail-Bot/blob/main/CONTRIBUTING.md) here for more info.
 
 ## Security Policies
 
