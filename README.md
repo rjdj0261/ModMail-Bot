@@ -74,3 +74,5 @@ python3 launcher.py
 
 This project is licensed
 under [GNU Affero General Public License v3.0](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/LICENSE).
+
+Thanks to [Chamburr](https://github.com/chamburr) for providing the base.
