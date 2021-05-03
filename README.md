@@ -1,2 +1,4 @@
-# Duelist
-A Multi-Functional Discord Bot. Which is WIP!
+# ModMail
+A ModMail bot based on chamburr's ModMail but Better
+
+Currrently in WIP!
