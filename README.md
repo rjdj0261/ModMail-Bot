@@ -1,6 +1,6 @@
 # ModMail
 
-[![Discord](https://discordapp.com/api/guilds/833891430702907442/embed.png)](https://dsc.gg/flying-python)
+[![Discord](https://discordapp.com/api/guilds/833891430702907442/embed.png)](dsc.gg/modmail-support)
 [![License](https://img.shields.io/github/license/chamburr/modmail.svg)](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/LICENSE)
 
 A feature-rich Discord bot for easy communication between server staff and users.
@@ -8,7 +8,7 @@ A feature-rich Discord bot for easy communication between server staff and users
 A new channel is created whenever a user messages the bot, and the channel will serve as a shared
 inbox for seamless communication between staff and the user.
 
-To learn more, check out our [Discord server](https://dsc.gg/flying-python).
+To learn more, check out our [Discord server](dsc.gg/modmail-support).
 
 ## Contributing
 
@@ -22,7 +22,7 @@ For more information, please see
 our [contributing guidelines](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/CONTRIBUTING.md).
 
 The issue tracker here is only for bug reports and suggestions. Please do not use it to ask a
-question. Instead, ask it on our [Discord server](https://dsc.gg/flying-python).
+question. Instead, ask it on our [Discord server](dsc.gg/modmail-support).
 
 ## Self-Hosting
 
@@ -75,6 +75,6 @@ python3 launcher.py
 This project is licensed
 under [GNU Affero General Public License v3.0](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/LICENSE).
 
-## Thanks
+## Developers
 
 [Chamburr](https://github.com/chamburr) for providing the base.
