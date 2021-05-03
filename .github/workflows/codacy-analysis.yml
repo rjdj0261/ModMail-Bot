@@ -1,0 +1,244 @@
+# This workflow checks out code, performs a Codacy security scan
+# and integrates the results with the
+# GitHub Advanced Security code scanning feature.  For more information on
+# the Codacy security scan action usage and parameters, see
+# https://github.com/codacy/codacy-analysis-cli-action.
+# For more information on Codacy Analysis CLI in general, see
+# https://github.com/codacy/codacy-analysis-cli.
+
+name: Codacy Security Scan
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    # The branches below must be a subset of the branches above
+    branches: [ main ]
+  schedule:
+    - cron: '22 7 * * 5'
+
+jobs:
+  codacy-security-scan:
+    name: Codacy Security Scan
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository to the GitHub Actions runner
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Execute Codacy Analysis CLI and generate a SARIF output with the security issues identified during the analysis
+      - name: Run Codacy Analysis CLI
+        uses: codacy/codacy-analysis-cli-action@1.1.0
+        with:
+          # Check https://github.com/codacy/codacy-analysis-cli#project-token to get your project token from your Codacy repository
+          # You can also omit the token and run the tools that support default configurations
+          project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
+          verbose: true
+          output: results.sarif
+          format: sarif
+          # Adjust severity of non-security issues
+          gh-code-scanning-compat: true
+          # Force 0 exit code to allow SARIF file generation
+          # This will handover control about PR rejection to the GitHub side
+          max-allowed-issues: 2147483647
+
+      # Upload the SARIF file generated in the previous step
+      - name: Upload SARIF results file
+        uses: github/codeql-action/upload-sarif@v1
+        with:
+          sarif_file: results.sarif
+
+- name: Codacy Analysis CLI
+  # You may pin to the exact commit or the version.
+  # uses: codacy/codacy-analysis-cli-action@77f0691dd8d8307b9d0b6b1b812337682f11c9ec
+  uses: codacy/codacy-analysis-cli-action@3.0.0
+  with:
+    # Run with verbose output
+    verbose: # optional
+    # API project token to retrieve your remote Codacy configuration for the project being analyzed
+    project-token: # optional
+    # API account token to retrieve your remote Codacy configuration for the project being analyzed
+    api-token: # optional
+    # Codacy's API URL, to retrieve your remote Codacy configuration
+    codacy-api-base-url: # optional
+    # Format of the output file
+    format: # optional
+    # Send analysis results to an output file
+    output: # optional
+    # The directory to be analyzed
+    directory: # optional
+    # Number of tools to run in parallel
+    parallel: # optional
+    # Maximum number of issues allowed for the analysis to succeed
+    max-allowed-issues: # optional, default is 2147483647
+    # The name of the tool to analyze the code
+    tool: # optional
+    # Maximum time each tool has to execute
+    tool-timeout: # optional
+    # Upload analysis results to Codacy
+    upload: # optional
+    # Fail the analysis if any tool fails to run
+    fail-if-incomplete: # optional
+    # Allow network access for tools
+    allow-network: # optional
+    # Force files to be readable by changing the permissions before running the analysis
+    force-file-permissions: # optional
+    # Reduce issue severity by one level, for non-security issues, for compatibility with GitHub's code scanning feature. This option will only have an effect when used in conjunction with '--format sarif'.
+    gh-code-scanning-compat: # optional
+    # Run dockerized tools. Possible values (true|false) Check the full list in https://docs.codacy.com/repositories-configure/codacy-configuration-file/#which-tools-can-be-configured-and-which-name-should-i-use
+    run-docker-tools: # optional, default is true
+    # Run GoSec. Possible values (true|false)
+    run-gosec: # optional
+    # Run StaticCheck. Possible values (true|false)
+    run-staticcheck: # optional
+    # Path to a file containing the output of Clang Tidy.
+    clang-tidy-output: # optional
+    # Path to a file containing the output of Faux Pas.
+    faux-pas-output: # optional
+    
+    - name: Codacy Coverage Reporter
+  # You may pin to the exact commit or the version.
+  # uses: codacy/codacy-coverage-reporter-action@3f58b0e12285221110375dffef1150534700246b
+  uses: codacy/codacy-coverage-reporter-action@1.0.0
+  with:
+    # API project token to retrieve your remote Codacy configuration for the project being analyzed
+    project-token: # optional
+    # API account token to retrieve your remote Codacy configuration for the project being analyzed
+    api-token: # optional
+    # Optional comma separated list of coverage reports to send to Codacy
+    coverage-reports: # optional, default is 
+    
+    - name: Git Version
+  # You may pin to the exact commit or the version.
+  # uses: codacy/git-version@fa06788276d7492a2af01662649696d249ecf4cb
+  uses: codacy/git-version@2.4.0
+  with:
+    # The name of the release branch
+    release-branch: # default is master
+    # The name of the dev branch
+    dev-branch: # default is dev
+    # The prefix to use in the version
+    prefix: # optional
+    # The paths to be used to calculate changes (comma-separated)
+    log-paths: # optional, default is ./
+    
+- name: Pulse Events CLI
+  # You may pin to the exact commit or the version.
+  # uses: codacy/pulse-action@dd15d61f61272a7b4395e88de12d4f7d38b61686
+  uses: codacy/pulse-action@0.0.3
+  with:
+    # The version of pulse-event-cli to be ran
+    version: # default is latest
+    # Arguments to be passed to the cli
+    args: 
+    
+- name: Setup Python
+  uses: actions/setup-python@v2.2.2
+  with:
+    # Version range or exact version of a Python version to use, using SemVer's version range syntax.
+    python-version: # optional, default is 3.x
+    # The target architecture (x86, x64) of the Python interpreter.
+    architecture: # optional
+    # Used to pull python distributions from actions/python-versions. Since there's a default, this is typically not supplied by the user.
+    token: # optional, default is ${{ github.token }}
+    
+- name: python-flake8
+  # You may pin to the exact commit or the version.
+  # uses: julianwachholz/flake8-action@5f8a6f59421b5bdd857439c9e05984d0017ff6cd
+  uses: julianwachholz/flake8-action@v2.0.0
+  with:
+    # The name of the check to add annotations to. Generally the same as the job that uses this action
+    checkName: 
+    # Path to use for flake8
+    path: # optional, default is .
+    # Specify a config file for flake8
+    config: # optional
+    # Used for internal tests
+    isTest: # optional, default is false
+    
+- name: pipeline-components-python-safety
+  # You may pin to the exact commit or the version.
+  # uses: pipeline-components/python-safety@294f73222dd131a15de890be8fd684ce1cd49a8c
+  uses: pipeline-components/python-safety@v0.7.2
+  with:
+    # optional arguments
+    options: # optional, default is 
+    # Action
+    action: # default is check
+    
+- name: Automated Version Bump - Python
+  # You may pin to the exact commit or the version.
+  # uses: digza/automatic-python-version@4a0507214aa0b89294c3d2c394d54c881fb3bfda
+  uses: digza/automatic-python-version@0.0.13
+  with:
+    # Prefix that is used for the git tag
+    tag-prefix: # optional, default is 
+    # Words list that trigger a minor version bump
+    minor-wording: # optional, default is feat,minor
+    # Words list that trigger a major version bump
+    major-wording: # optional, default is BREAKING CHANGE,major
+    # Words list that trigger a patch version bump
+    patch-wording: # optional
+    # Words list that trigger a patch version bump
+    rc-wording: # optional, default is pre-alpha,pre-beta,pre-rc
+    # Avoid to add a TAG to the version update commit
+    skip-tag: # optional, default is false
+    # Custom dir to the package
+    PACKAGEJSON_DIR: # optional, default is 
+    # A separate branch to perform the version bump on
+    target-branch: # optional, default is 
+    # Set a default version bump to use
+    default: # optional, default is patch
+    
+- name: PyCharm Python Security Scanner
+  # You may pin to the exact commit or the version.
+  # uses: tonybaloney/pycharm-security@b342dbf2414bd1fd020e27897c0855b609df92e7
+  uses: tonybaloney/pycharm-security@1.24.0
+  with:
+    # Project Directory
+    path: # optional, default is .
+    # Path to an inspection profile XML file
+    profile: # optional, default is /sources/SecurityInspectionProfile.xml
+    # Fail the task if warnings were found in the code
+    fail_on_warnings: # optional, default is no
+    # Subdirectory within path containing Python source
+    source: # optional, default is .
+    # File containing a list of Python packages to be installed before scanning
+    requirements: # optional, default is requirements.txt
+    
+- name: Serverless with Python Requirements
+  # You may pin to the exact commit or the version.
+  # uses: dhollerbach/actions.serverless-with-python-requirements@519a09655b8b083fff54666ce539cda24bb6705a
+  uses: dhollerbach/actions.serverless-with-python-requirements@2.0
+  with:
+    # Additional arguments you want to set
+    args: # optional, default is 
+    # Your aws access key id
+    aws-access-key-id: 
+    # Your aws secret access key
+    aws-secret-access-key: 
+    
+- name: Python Syntax Checker
+  # You may pin to the exact commit or the version.
+  # uses: cclauss/Find-Python-syntax-errors-action@90f67be9fb626b675a3971b1d08ab29851cb721f
+  uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
+  
+- name: Python Markdown Documentation
+  # You may pin to the exact commit or the version.
+  # uses: jbheard/markdown-docs@c97b542c3d24257d97d55179445e339251618220
+  uses: jbheard/markdown-docs@v0.1
+  with:
+    # Path to the source folder containing python code
+    src_path: # optional, default is .
+    # Directory to create markdown documents in
+    dst_path: # optional, default is docs
+    
+- name: Python Safety Check
+  # You may pin to the exact commit or the version.
+  # uses: aufdenpunkt/python-safety-check@e02a0bb09428604efed3562ce154b693d493b923
+  uses: aufdenpunkt/python-safety-check@v1.0.4
+  with:
+    # Optional Safety script parameters. (e.g. --ignore=1234 or -i 1234)
+    safety_args: # optional, default is 
+    # Set true to scan required python packages without installing them.
+    scan_requirements_file_only: # optional, default is false
