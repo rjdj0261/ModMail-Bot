@@ -14,6 +14,10 @@ To learn more, check out our [Discord server](dsc.gg/modmail-support).
 
 To know the progress of our project check our [Progress Board](https://github.com/ReyBotDev/ModMail-Bot/projects/1).
 
+## Supporting
+
+Click the Sponsor button and choose any one option to support us.
+
 ## Contributing
 
 There are many ways you can contribute to this project:
