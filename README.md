@@ -75,6 +75,18 @@ python3 launcher.py
 This project is licensed
 under [GNU Affero General Public License v3.0](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/LICENSE).
 
+## Code Of Conduct
+
+Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob/main/CODE_OF_CONDUCT.md) here for knowing more.
+
+## Contributing
+
+Please check our [Contributing Rules](https://github.com/ReyBotDev/ModMail-Bot/blob/main/CONTRIBUTING.md) here for more info.
+
+## Security Policies
+
+Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob/main/SECURITY.md) here to know more.
+
 ## Developers
 
-[Chamburr](https://github.com/chamburr) for providing the base.
+[Chamburr](https://github.com/chamburr)
