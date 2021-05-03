@@ -8,7 +8,11 @@ A feature-rich Discord bot for easy communication between server staff and users
 A new channel is created whenever a user messages the bot, and the channel will serve as a shared
 inbox for seamless communication between staff and the user.
 
-To learn more, check out our [Discord server](dsc.gg/modmail-support).
+To learn more, check out our [Discord server](https://dsc.gg/modmail-support).
+
+## Premium
+
+For premium join our [Support Server](https://dsc.gg/modmail-support).
 
 ## Progress
 
