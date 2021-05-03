@@ -89,4 +89,6 @@ Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob
 
 ## Developers
 
+[ReyBotDev](https://github.com/ReyBotDev)
+
 [Chamburr](https://github.com/chamburr)
