@@ -1,7 +1,8 @@
 # ModMail
 
 [![Discord](https://discordapp.com/api/guilds/838694261473542164/embed.png)](https://dsc.gg/modmail-support)
-[![License](https://img.shields.io/github/license/chamburr/modmail.svg)](https://github.com/flyingpythonstudios/ModMail-Bot/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE)
+
 
 A feature-rich Discord bot for easy communication between server staff and users.
 
