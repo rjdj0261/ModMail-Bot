@@ -2,6 +2,12 @@
 
 [![Discord](https://discordapp.com/api/guilds/838694261473542164/embed.png)](https://dsc.gg/modmail-support)
 [![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
 
 
 A feature-rich Discord bot for easy communication between server staff and users.
