@@ -56,7 +56,7 @@ ModMail can only be hosted on UNIX based operating systems. Windows is not suppo
 Clone this repository, or fork and clone if you wish to make pull requests.
 
 ```sh
-git clone https://github.com/chamburr/modmail.git
+git clone https://github.com/ReyBotDev/Modmail-Bot.git
 ```
 
 ### Configuration
