@@ -50,7 +50,6 @@ ModMail can only be hosted on UNIX based operating systems. Windows is not suppo
 - [Python 3](https://www.python.org/downloads/)
 - [PostgreSQL](https://www.postgresql.org/download/)
 - [Redis](https://redis.io/download/)
-- [RabbitMQ](https://www.rabbitmq.com/download.html)
 
 ### Getting the Sources
 
