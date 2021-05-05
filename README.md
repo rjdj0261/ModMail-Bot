@@ -1,6 +1,5 @@
 # ModMail
 
-[![Discord](https://discordapp.com/api/guilds/838694261473542164/embed.png)](https://dsc.gg/modmail-support)
 [![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE)
 ![GitHub contributors](https://img.shields.io/github/contributors-anon/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/ReyBotDev/ModMail-Bot?style=for-the-badge)
@@ -9,8 +8,20 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot)
-[![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
-
+[![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:reybotdev@gmail.com)
+![Github Forks](https://img.shields.io/github/forks/ReyBotDev/ModMail-Bot)
+![Github Stars](https://img.shields.io/github/stars/ReyBotDev/ModMail-Bot)
+![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FReyBotDev%2FModMail-Bot)
+[![Discord](https://img.shields.io/discord/838694261473542164)](https://dsc.gg/modmaol-support)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)
+![Deezer](https://img.shields.io/badge/Deezer-FEAA2D?style=for-the-badge&logo=deezer&logoColor=white)
+![Youtube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)
 
 A feature-rich Discord bot for easy communication between server staff and users.
 
@@ -103,8 +114,6 @@ Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob
 
 Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob/main/SECURITY.md) here to know more.
 
-## Developers
-
-[ReyBotDev](https://github.com/ReyBotDev)
+## Thanks to
 
 [Chamburr](https://github.com/chamburr)
