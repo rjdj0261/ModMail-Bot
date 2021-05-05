@@ -10,6 +10,7 @@
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot)
 [![start with why](https://img.shields.io/badge/start%20with-why%3F-brightgreen.svg?style=flat)](http://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action)
+[![HitCount](http://hits.dwyl.com/ReyBotDev/ModMail-Bot.svg)](http://hits.dwyl.com/ReyBotDev/ModMail-Bot)
 
 
 A feature-rich Discord bot for easy communication between server staff and users.
