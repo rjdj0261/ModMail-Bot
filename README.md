@@ -8,6 +8,7 @@
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/ReyBotDev/ModMail-Bot?style=for-the-badge)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot)
 
 
 A feature-rich Discord bot for easy communication between server staff and users.
