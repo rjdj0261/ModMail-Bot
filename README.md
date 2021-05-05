@@ -93,9 +93,6 @@ Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob
 
 Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob/main/SECURITY.md) here to know more.
 
-## Github Stargazers Over Time
-![Stargazers over time](https://starchart.cc/ReyBotDev/ModMail-Bot.svg)
-
 ## Powered By
 
 [Railway](https://railway.app)
