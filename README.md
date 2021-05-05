@@ -129,5 +129,5 @@ Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob
 ![Maintaner](https://img.shields.io/badge/maintainer-ReyBotDev-blue)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://dsc.gg/modmail-support)
 [![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/ReyBotDev/ModMail-Bot/releases/)
-![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]
+![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/ReyBotDev/)
