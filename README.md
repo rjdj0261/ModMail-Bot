@@ -61,7 +61,7 @@ question. Instead, ask it on our [Discord server](dsc.gg/modmail-support).
 ## Self-Hosting
 
 This self-hosting guide requires you to have some basic knowledge about command line, Python, and
-Discord bots. We do not provide any support for self-hosting.
+Discord bots.
 
 ### Prerequisites
 
