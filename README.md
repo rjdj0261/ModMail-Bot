@@ -1,28 +1,5 @@
 # ModMail
 
-[![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors-anon/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![GitHub closed issues](https://img.shields.io/github/issues-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot?style=for-the-badge)
-[![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:reybotdev@gmail.com)
-![Github Forks](https://img.shields.io/github/forks/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![Github Stars](https://img.shields.io/github/stars/ReyBotDev/ModMail-Bot?style=for-the-badge)
-![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FReyBotDev%2FModMail-Bot)
-[![Discord](https://img.shields.io/discord/838694261473542164?style=for-the-badge)](https://dsc.gg/modmaol-support)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)
-![Deezer](https://img.shields.io/badge/Deezer-FEAA2D?style=for-the-badge&logo=deezer&logoColor=white)
-![Youtube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)
-
 A feature-rich Discord bot for easy communication between server staff and users.
 
 A new channel is created whenever a user messages the bot, and the channel will serve as a shared
@@ -116,6 +93,9 @@ Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob
 
 Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob/main/SECURITY.md) here to know more.
 
+## Github Stargazers Over Time
+![Stargazers over time](https://starchart.cc/ReyBotDev/ModMail-Bot.svg)
+
 ## Powered By
 
 [Railway](https://railway.app)
@@ -123,3 +103,34 @@ Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob
 ## Thanks to
 
 [Chamburr](https://github.com/chamburr)
+
+## Info Using Badges
+
+[![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors-anon/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot?style=for-the-badge)
+[![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:reybotdev@gmail.com)
+![Github Forks](https://img.shields.io/github/forks/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![Github Stars](https://img.shields.io/github/stars/ReyBotDev/ModMail-Bot?style=for-the-badge)
+![Tweet](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FReyBotDev%2FModMail-Bot)
+[![Support Server](https://img.shields.io/discord/838694261473542164.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://dsc.gg/modmail-support)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+![Postgresql](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![VS Code](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![Spotify](https://img.shields.io/badge/Spotify-1ED760?&style=for-the-badge&logo=spotify&logoColor=white)
+![Deezer](https://img.shields.io/badge/Deezer-FEAA2D?style=for-the-badge&logo=deezer&logoColor=white)
+![Youtube Music](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+![Maintaner](https://img.shields.io/badge/maintainer-ReyBotDev-blue)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://dsc.gg/modmail-support)
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/ReyBotDev/ModMail-Bot/releases/)
+![Open Source Love png1](https://badges.frapsoft.com/os/v1/open-source.png?v=103)]
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/ReyBotDev/)
