@@ -30,6 +30,8 @@ inbox for seamless communication between staff and the user.
 
 To learn more, check out our [Discord server](https://dsc.gg/modmail-support).
 
+![Invite ModMail](https://raw.githubusercontent.com/nsde/neovision/main/readme_images/add-to-dc.png)
+
 ## Premium
 
 For premium join our [Support Server](https://dsc.gg/modmail-support).
