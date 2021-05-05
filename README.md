@@ -90,7 +90,7 @@ ModMail utilises several modules to function properly. The list of modules can b
 in `requirements.txt`. You can install them with the following command.
 
 ```sh
-pip3 install -r requirements.txt
+pipenv install
 ```
 
 ### Running the Bot
@@ -98,7 +98,7 @@ pip3 install -r requirements.txt
 Congratulations! You have set up everything, and you can finally have the bot up and running. Use the following command to start the bot.
 
 ```sh
-python3 launcher.py
+pipenv run bot
 ```
 
 ## License

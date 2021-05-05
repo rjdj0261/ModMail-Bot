@@ -24,3 +24,6 @@ subprocess32 = "==3.5.4"
 
 [requires]
 python_version = "3.8"
+
+[scripts]
+bot = "python3 laucher.py || python laucher.py"
