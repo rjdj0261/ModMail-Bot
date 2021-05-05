@@ -64,23 +64,6 @@ owners = []
 # Bot admins that have access to admin commands
 admins = []
 
-# Cogs to load on startup
-initial_extensions = [
-    "cogs.admin",
-    "cogs.communication",
-    "cogs.configuration",
-    "cogs.core",
-    "cogs.direct_message",
-    "cogs.error_handler",
-    "cogs.events",
-    "cogs.general",
-    "cogs.miscellaneous",
-    "cogs.modmail_channel",
-    "cogs.owner",
-    "cogs.premium",
-    "cogs.snippet",
-]
-
 # Channels to send logs
 join_channel = 000000000000000000
 event_channel = 000000000000000000

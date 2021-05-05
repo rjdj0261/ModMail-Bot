@@ -53,7 +53,11 @@ class General(commands.Cog):
         )
         page.set_thumbnail(url=self.bot.user.avatar_url)
         page.set_footer(text="Use the reactions to flip pages.")
-        page.add_field(name="Invite", value="https://discord.com/api/oauth2/authorize?client_id=838643828591689818&permissions=268823640&scope=bot", inline=False)
+        page.add_field(
+            name="Invite",
+            value="https://discord.com/api/oauth2/authorize?client_id=838643828591689818&permissions=268823640&scope=bot",
+            inline=False,
+        )
         page.add_field(name="Support Server", value="https://dsc.gg/flying-python", inline=False)
         all_pages.append(page)
         page = discord.Embed(title=f"{self.bot.user.name} Help Menu", colour=self.bot.primary_colour)
