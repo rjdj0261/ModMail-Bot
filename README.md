@@ -116,6 +116,10 @@ Please check our [Code Of Conduct](https://github.com/ReyBotDev/ModMail-Bot/blob
 
 Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob/main/SECURITY.md) here to know more.
 
+## Powered By
+
+[Railway](https://railway.app)
+
 ## Thanks to
 
 [Chamburr](https://github.com/chamburr)
