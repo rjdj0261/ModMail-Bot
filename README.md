@@ -95,8 +95,6 @@ git clone https://github.com/ReyBotDev/Modmail-Bot.git
 Configuration is done through a `config.py` file. A template can be found in `config.example.py`.
 You can create a copy of it and rename it to `config.py`, then fill in the configurations.
 
-Warning :- Make sure you use "railway" as your MySQLDB or else it wouldn't work!
-
 ### Installing Modules
 
 ModMail utilises several modules to function properly. The list of modules can be found
