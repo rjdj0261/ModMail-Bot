@@ -92,8 +92,6 @@ git clone https://github.com/ReyBotDev/Modmail-Bot.git
 
 ### Configuration
 
-Use GenMusicDB.sql for creating database for music in MySQL.
-
 Configuration is done through a `config.py` file. A template can be found in `config.example.py`.
 You can create a copy of it and rename it to `config.py`, then fill in the configurations.
 

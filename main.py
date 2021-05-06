@@ -3,11 +3,12 @@ import json
 import logging
 import sys
 
-import config
 import discord
 import sentry_sdk
 
 from discord.ext import commands
+
+import config
 
 from classes.bot import ModMail
 from utils.tools import get_guild_prefix

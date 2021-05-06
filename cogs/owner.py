@@ -135,9 +135,7 @@ class Owner(commands.Cog):
     @checks.is_owner()
     @commands.command(description="Evaluate code on all clusters", usage="evall <code>", hidden=True)
     async def evall(self, ctx, *, code: str):
-        data = "\n".join(
-            await self.bot.comm.handler("evaluate", self.bot.cluster_count, {"code": code})
-        )
+        data = "\n".join(await self.bot.comm.handler("evaluate", self.bot.cluster_count, {"code": code}))
         if len(data) > 2000:
             data = data[:1997] + "..."
         await ctx.send(embed=discord.Embed(description=data, colour=self.bot.primary_colour))
