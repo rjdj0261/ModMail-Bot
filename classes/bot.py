@@ -11,6 +11,8 @@ from discord.ext import commands
 
 import config
 
+import os
+
 from utils import prometheus, tools
 
 log = logging.getLogger(__name__)
@@ -76,10 +78,7 @@ class ModMail(commands.AutoShardedBot):
         await self.connect_redis()
         await self.connect_postgres()
         await self.connect_prometheus()
-        for extension in self.config.initial_extensions:
-            try:
-                self.load_extension(extension)
-            except Exception:
-                log.error(f"Failed to load extension {extension}.", file=sys.stderr)
-                log.error(traceback.print_exc())
+        for filename in os.listdir('cogs'):
+            if filename.endswith('.py'):
+                bot.load_extension(f'cogs.{filename[:-3]}')
         await self.start(self.config.token)
