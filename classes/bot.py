@@ -12,8 +12,6 @@ from discord.ext import commands
 
 from utils import prometheus, tools
 
-import os
-
 log = logging.getLogger(__name__)
 
 
@@ -28,12 +26,11 @@ class ModMail(commands.AutoShardedBot):
         self.uptime = datetime.datetime.utcnow() - self.start_time
         self.config = config
         self.tools = tools
-        self.primary_color = self.config.primary_colour
-        self.user_color = self.config.user_colour
-        self.mod_color = self.config.mod_colour
-        self.error_color = self.config.error_colour
+        self.primary_colour = self.config.primary_colour
+        self.user_colour = self.config.user_colour
+        self.mod_colour = self.config.mod_colour
+        self.error_colour = self.config.error_colour
         self.comm = self.cogs["Communication"]
-        
         self.all_prefix = {}
         self.banned_guilds = []
         self.banned_users = []
@@ -59,7 +56,7 @@ class ModMail(commands.AutoShardedBot):
         return res
 
     async def connect_redis(self):
-        self.redis = await aioredis.create_pool(self.config.redisurl, minsize=5, maxsize=10, loop=self.loop, db=0)
+        self.redis = await aioredis.create_pool(self.config.ipc_channel, minsize=5, maxsize=10, loop=self.loop, db=0)
         info = (await self.redis.execute("INFO")).decode()
         for line in info.split("\n"):
             if line.startswith("redis_version"):
@@ -78,13 +75,10 @@ class ModMail(commands.AutoShardedBot):
         await self.connect_redis()
         await self.connect_postgres()
         await self.connect_prometheus()
-        for filename in os.listdir('./cogs'):
-            if filename.endswith('.py'):
-                cog = f'cogs.{filename[:-3]}'
-                try:
-                    self.load_extension(cog)
-                except Exception as e:
-                    log.error(f"Failed to load extension {cog}.", file=sys.stderr)
-                    log.error(traceback.print_exc())
-                    
+        for extension in self.config.initial_extensions:
+            try:
+                self.load_extension(extension)
+            except Exception:
+                log.error(f"Failed to load extension {extension}.", file=sys.stderr)
+                log.error(traceback.print_exc())
         await self.start(self.config.token)

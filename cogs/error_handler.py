@@ -11,9 +11,9 @@ log = logging.getLogger(__name__)
 class ErrorHandler(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        bot.on_command_error = self._on_command_error
 
-    async def _on_command_error(self, ctx, error, bypass=False):
+    @commands.Cog.listner()
+    async def on_command_error(self, ctx, error, bypass=False):
         if (
             hasattr(ctx.command, "on_error")
             or (ctx.command and hasattr(ctx.cog, f"_{ctx.command.cog_name}__error"))

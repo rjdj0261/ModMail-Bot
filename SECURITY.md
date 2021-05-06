@@ -8,8 +8,4 @@
 
 ## Reporting a Vulnerability
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
-
-Please join https://dsc.gg/flying-python and DM modmail we will assist you from there!
+Please join https://dsc.gg/modmail-support and DM modmail we will assist you from there!
