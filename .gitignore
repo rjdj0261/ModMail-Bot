@@ -111,3 +111,4 @@ venv.bak/
 config.py
 targets.json
 .vscode/
+app.py
