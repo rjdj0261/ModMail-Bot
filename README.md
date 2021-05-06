@@ -1,5 +1,13 @@
 # ModMail
 
+[![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE?style=for-the-badge)
+![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot?style=for-the-badge)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+![Maintaner](https://img.shields.io/badge/maintainer-ReyBotDev-blue)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://dsc.gg/modmail-support)
+[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/ReyBotDev/ModMail-Bot/releases/)
+
+
 A feature-rich Discord bot for easy communication between server staff and users.
 
 A new channel is created whenever a user messages the bot, and the channel will serve as a shared
@@ -128,13 +136,3 @@ Please check our [Security Policy](https://github.com/ReyBotDev/ModMail-Bot/blob
 ## Thanks to
 
 [Chamburr](https://github.com/chamburr) for providing [modmail base](https://github.com/chamburr/modmail).
-
-## Info Using Badges
-
-[![License](https://img.shields.io/github/license/ReyBotDev/ModMail-Bot.svg)](https://github.com/ReyBotDev/ModMail-Bot/blob/master/LICENSE?style=for-the-badge)
-![Github Total lines](https://tokei.rs/b1/github/ReyBotDev/ModMail-Bot?style=for-the-badge)
-[![Support Server](https://img.shields.io/discord/838694261473542164.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://dsc.gg/modmail-support)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-![Maintaner](https://img.shields.io/badge/maintainer-ReyBotDev-blue)
-[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://dsc.gg/modmail-support)
-[![Github all releases](https://img.shields.io/github/downloads/Naereen/StrapDown.js/total.svg)](https://GitHub.com/ReyBotDev/ModMail-Bot/releases/)
